@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-car_model = pickle.load(open('carprice_model.sav', 'rb'))
+car_model = pickle.load(open('carprice_model.sav2', 'rb'))
 
 st.title('Prediksi Harga Mobil Data Mining')
 
